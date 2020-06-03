@@ -35,7 +35,6 @@ module Mastermind
       puts ""
       puts "Welcome to Mastermind. The Codemaker has selected a secret code of 4 colors."
       puts ""
-      puts "code: #{board.code}"
       while true
         board.formatted_board
         solicit_guess
